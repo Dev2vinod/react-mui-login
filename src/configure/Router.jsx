@@ -6,6 +6,7 @@ import Contact from '../screens/contact/Contact'
 import Navbar from './Navbar'
 import Button from '../componets/Button'
 import Product from '../screens/product/Product'
+import SingleProduct from '../screens/product/SingleProduct'
 
 const Router = () => {
 
@@ -28,6 +29,7 @@ const Router = () => {
     <Route path='contact'  element ={<Contact /> }  />
     <Route path='button'  element ={<Button /> }  />
     <Route path='product'  element ={<Product /> }  />
+    <Route path='singleProduct/:id'  element ={<SingleProduct /> }  />
 
 
     
