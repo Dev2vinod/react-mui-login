@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 
-const Card = ({title,id,price,category,description,rating,image}) => {
+const Card = ({title,id,price,category,description,rating,image,showBtn}) => {
 
     const navigate =useNavigate()
    function singleProductPage() {
@@ -30,9 +30,11 @@ const Card = ({title,id,price,category,description,rating,image}) => {
     <p>count-- {rating.count}</p>
     <p>rate-- {rating.rate}</p>
 
-    <div className="card-actions justify-end">
+
+   { showBtn ?  <div className="card-actions justify-end">
       <button className="bg-blue-500 px-5 p-1 mt-2 rounded-md " onClick={singleProductPage}>Show More</button>
-    </div>
+    </div>:null}
+   
   </div>
 </div>
 </div>

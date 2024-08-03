@@ -7,6 +7,7 @@ import Navbar from './Navbar'
 import Button from '../componets/Button'
 import Product from '../screens/product/Product'
 import SingleProduct from '../screens/product/SingleProduct'
+import Todo from '../screens/todo/Todo'
 
 const Router = () => {
 
@@ -30,6 +31,7 @@ const Router = () => {
     <Route path='button'  element ={<Button /> }  />
     <Route path='product'  element ={<Product /> }  />
     <Route path='singleProduct/:id'  element ={<SingleProduct /> }  />
+    <Route path='todo'  element ={<Todo/> }  />
 
 
     

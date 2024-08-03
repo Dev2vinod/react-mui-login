@@ -55,6 +55,7 @@ const Product = () => {
                     price ={item.price}
                     category ={item.category}
                     rating ={item.rating}
+                    showBtn ={true}
             
             
             />

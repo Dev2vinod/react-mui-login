@@ -43,7 +43,7 @@ const SingleProduct = () => {
                     category={data.category}
                     image ={data.image}
     
-    /> :<h1>loading</h1>}
+    /> :<h1>loading...</h1>}
 
 </div>
 

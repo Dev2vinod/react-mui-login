@@ -45,6 +45,14 @@ const Navbar = () => {
         </li>
 
 
+        <li>
+         <Link to ='todo' >
+         
+         Todo
+         </Link>
+        </li>
+
+
      </ul>
   </nav>
     </div>
